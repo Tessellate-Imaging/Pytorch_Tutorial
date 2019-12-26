@@ -1,7 +1,7 @@
 # Pytorch_Tutorial[![Tweet](https://img.shields.io/twitter/url/https/github.com/tterb/hyde.svg?style=social)](http://twitter.com/share?text=Check%20out%20Monk:%20An%20Open%20Source%20Unified%20Wrapper%20for%20Computer%20Vision&url=https://github.com/Tessellate-Imaging/monk_v1&hashtags=MonkAI,OpenSource,Notebooks,DeepLearning,Tutorial,Pytorch,Python)
 A set of jupyter notebooks on pytorch functions with examples
-
-
+&nbsp;
+&nbsp;
 
 ## Table of Contents
 - A) RoadMap 1 - Torch Main 1 - Basic Tensor functions.ipynb
@@ -27,7 +27,8 @@ A set of jupyter notebooks on pytorch functions with examples
 - U) RoadMap 21 - Appendix 4 - American Sign Language Classification with Monk.ipynb'
 - V) RoadMap 23 - Appendix 5 - Plant Disease Classification with Monk.ipynb'
 - W) RoadMap 24 - Appendix 6 - Plant Disease Classification with Monk.ipynb'
-
+&nbsp;
+&nbsp;
 
 
 
@@ -35,6 +36,40 @@ A set of jupyter notebooks on pytorch functions with examples
 ```
 pip install -r requirements.txt
 ```
+&nbsp;
+&nbsp;
+
+
+## Author
+Tessellate Imaging - https://www.tessellateimaging.com/
+Monk Library - https://github.com/Tessellate-Imaging/monk_v1
+
+    Monk is an opensource low-code tool for computer vision and deep learning
+
+#### Monk features
+- low-code
+- unified wrapper over major deep learning framework - keras, pytorch, gluoncv
+- syntax invariant wrapper
+
+
+#### Enables
+- to create, manage and version control deep learning experiments
+- to compare experiments across training metrics
+- to quickly find best hyper-parameters
+
+
+#### At present it only supports transfer learning, but we are working each day to incorporate
+- GUI based custom model creation
+- various object detection and segmentation algorithms
+- deployment pipelines to cloud and local platforms
+- acceleration libraries such as TensorRT
+- preprocessing and post processing libraries
+
+#### To contribute to Monk AI or Pytorch RoadMap repository raise an issue in the git-repo or dm us on linkedin 
+ - Abhishek - https://www.linkedin.com/in/abhishek-kumar-annamraju/
+ - Akash - https://www.linkedin.com/in/akashdeepsingh01/
+&nbsp;
+&nbsp;
 
 
 ## Copyright
