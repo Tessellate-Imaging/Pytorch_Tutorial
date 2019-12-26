@@ -2,6 +2,8 @@
 A set of jupyter notebooks on pytorch functions with examples
 <br />
 <br />
+<br />
+
 
 ## Table of Contents
 - A) RoadMap 1 - Torch Main 1 - Basic Tensor functions.ipynb
@@ -29,6 +31,7 @@ A set of jupyter notebooks on pytorch functions with examples
 - W) RoadMap 24 - Appendix 6 - Plant Disease Classification with Monk.ipynb'
 <br />
 <br />
+<br />
 
 
 
@@ -38,11 +41,12 @@ pip install -r requirements.txt
 ```
 <br />
 <br />
+<br />
 
 
 ## Author
-Tessellate Imaging - https://www.tessellateimaging.com/
-Monk Library - https://github.com/Tessellate-Imaging/monk_v1
+    Tessellate Imaging - https://www.tessellateimaging.com/
+    Monk Library - https://github.com/Tessellate-Imaging/monk_v1
 
     Monk is an opensource low-code tool for computer vision and deep learning
 
@@ -70,7 +74,7 @@ Monk Library - https://github.com/Tessellate-Imaging/monk_v1
  - Akash - https://www.linkedin.com/in/akashdeepsingh01/
 <br />
 <br />
-
+<br />
 
 ## Copyright
 
