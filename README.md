@@ -24,8 +24,8 @@ A set of jupyter notebooks on pytorch functions with examples
 - N) RoadMap 14 - Classification 1 - Pytorch model zoo.ipynb
 - O) RoadMap 15 - Classification 2 - Training & Validating [Custom CNN, Public Dataset].ipynb
 - P) RoadMap 16 - Classification 3 - Training & Validating [Custom CNN, Custom Dataset].ipynb
-- Q) RoadMap 17 - Classification 3 - Transfer learning [Custom Dataset, Learning Rate Scheduler, Model saver].ipynb
-- R) RoadMap 18 - Appendix 1 - Replicating Classification 3 with Monk.ipynb
+- Q) RoadMap 17 - Classification 4 - Transfer learning [Custom Dataset, Learning Rate Scheduler, Model saver].ipynb
+- R) RoadMap 18 - Appendix 1 - Replicating Classification 4 with Monk.ipynb
 - S) RoadMap 19 - Appendix 2 - Fashion Classification with Monk.ipynb
 - T) RoadMap 20 - Appendix 3 - Indoor Scene Classification with Monk.ipynb
 - U) RoadMap 21 - Appendix 4 - American Sign Language Classification with Monk.ipynb
