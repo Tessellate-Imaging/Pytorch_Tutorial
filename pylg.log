@@ -1,0 +1,428 @@
+=== Log initialised at 2019-12-26 23:17:32.694961 ===
+
+2019-12-26 23:17:32.694793  pytorch_prototype.py  0011: __init__                          -> ENTRY: verbose = 1
+2019-12-26 23:17:32.695013  level_14_master_main  0011: __init__                          -> ENTRY: verbose = 1
+2019-12-26 23:17:32.695090  level_13_updates_mai  0010: __init__                          -> ENTRY: verbose = 1
+2019-12-26 23:17:32.695154  level_12_losses_main  0010: __init__                          -> ENTRY: verbose = 1
+2019-12-26 23:17:32.695211  level_11_optimizers_  0010: __init__                          -> ENTRY: verbose = 1
+2019-12-26 23:17:32.695264  level_10_schedulers_  0010: __init__                          -> ENTRY: verbose = 1
+2019-12-26 23:17:32.695317  level_9_transforms_m  0010: __init__                          -> ENTRY: verbose = 1
+2019-12-26 23:17:32.695369  level_8_layers_main.  0010: __init__                          -> ENTRY: verbose = 1
+2019-12-26 23:17:32.695421  level_7_aux_main.py   0010: __init__                          -> ENTRY: verbose = 1
+2019-12-26 23:17:32.695472  level_6_params_main.  0009: __init__                          -> ENTRY: verbose = 1
+2019-12-26 23:17:32.695529  level_5_state_base.p  0009: __init__                          -> ENTRY: verbose = 1
+2019-12-26 23:17:32.695585  level_4_evaluation_b  0010: __init__                          -> ENTRY: verbose = 1
+2019-12-26 23:17:32.695638  level_3_training_bas  0010: __init__                          -> ENTRY: verbose = 1
+2019-12-26 23:17:32.695689  level_2_model_base.p  0009: __init__                          -> ENTRY: verbose = 1
+2019-12-26 23:17:32.695744  level_1_dataset_base  0010: __init__                          -> ENTRY: verbose = 1
+2019-12-26 23:17:32.695797  base_class.py         0013: __init__                          -> ENTRY: verbose = 1
+2019-12-26 23:17:32.695852  base_system_state.py  0005: get_base_system_dict              -> ENTRY
+2019-12-26 23:17:32.695962  base_system_state.py  0005: get_base_system_dict              <- EXIT : {'verbose': 1, 'cwd': False, 'master_systems_dir': False, 'master_systems_dir_relative': False, 'project_name': False, 'project_dir': False, 'project_dir_relative': False, 'experiment_name': False, 'experiment_dir': False, 'experiment_dir_relative': False, 'origin': False, 'master_comparison_dir': False, 'master_comparison_dir_relative': False, 'library': False, 'output_dir': False, 'output_dir_relative': False, 'model_dir': False, 'model_dir_relative': False, 'log_dir': False, 'log_dir_relative': False, 'fname': False, 'fname_relative': False, 'dataset': {'dataset_type': False, 'train_path': False, 'val_path': False, 'csv_train': False, 'csv_val': False, 'test_path': False, 'csv_test': False, 'params': {'input_size': False, 'batch_size': False, 'train_shuffle': False, 'num_workers': False, 'weighted_sample': False, 'num_classes': False, 'classes': False, 'num_train_images': False, 'num_val_images': False, 'num_test_images': False, 'delimiter': ',', 'test_delimiter': ',', 'dataset_test_type': False, 'train_val_split': 0.9}, 'transforms': {'train': [], 'val': [], 'test': []}, 'status': False}, 'model': {'status': False, 'custom_network': [], 'final_layer': False, 'params': {'model_name': False, 'model_path': False, 'use_gpu': False, 'use_pretrained': False, 'freeze_base_network': False, 'num_layers': False, 'num_params_to_update': False, 'num_freeze': False, 'gpu_memory_fraction': 0.6}}, 'hyper-parameters': {'status': False, 'learning_rate': False, 'num_epochs': False, 'optimizer': {'name': False, 'params': {}}, 'learning_rate_scheduler': {'name': False, 'params': {}}, 'loss': {'name': False, 'params': {}}}, 'training': {'settings': {'display_progress_realtime': False, 'display_progress': False, 'save_intermediate_models': False, 'save_training_logs': False, 'intermediate_model_prefix': False}, 'outputs': {'max_gpu_memory_usage': 0, 'best_val_acc': 0, 'best_val_acc_epoch_num': 0, 'epochs_completed': 0}, 'status': False}, 'testing': {'status': False, 'num_images': False, 'num_correct_predictions': False, 'percentage_accuracy': False, 'class_accuracy': False}, 'states': {'eval_infer': False, 'resume_train': False, 'copy_from': False, 'pseudo_copy_from': False}, 'local': {'projects_list': [], 'num_projects': False, 'experiments_list': [], 'num_experiments': False, 'project_experiment_list': [], 'transforms_train': [], 'transforms_val': [], 'transforms_test': [], 'normalize': False, 'mean_subtract': False, 'applied_train_tensor': False, 'applied_test_tensor': False, 'data_transforms': {}, 'image_datasets': {}, 'data_loaders': {}, 'data_generators': {}, 'model': False, 'ctx': False, 'params_to_update': [], 'device': False, 'learning_rate_scheduler': False, 'optimizer': False, 'criterion': False}}
+2019-12-26 23:17:32.696613  common.py             0083: create_dir                        -> ENTRY: dir_path = workspace/
+2019-12-26 23:17:32.696680  common.py             0083: create_dir                        <- EXIT
+2019-12-26 23:17:32.696729  common.py             0083: create_dir                        -> ENTRY: dir_path = workspace/comparison/
+2019-12-26 23:17:32.696782  common.py             0083: create_dir                        <- EXIT
+2019-12-26 23:17:32.696847  base_class.py         0013: __init__                          <- EXIT
+2019-12-26 23:17:32.696888  level_1_dataset_base  0010: __init__                          <- EXIT
+2019-12-26 23:17:32.696924  level_2_model_base.p  0009: __init__                          <- EXIT
+2019-12-26 23:17:32.696959  level_3_training_bas  0010: __init__                          <- EXIT
+2019-12-26 23:17:32.696994  level_4_evaluation_b  0010: __init__                          <- EXIT
+2019-12-26 23:17:32.697028  level_5_state_base.p  0009: __init__                          <- EXIT
+2019-12-26 23:17:32.697063  level_6_params_main.  0009: __init__                          <- EXIT
+2019-12-26 23:17:32.697097  level_7_aux_main.py   0010: __init__                          <- EXIT
+2019-12-26 23:17:32.697132  level_8_layers_main.  0010: __init__                          <- EXIT
+2019-12-26 23:17:32.697166  level_9_transforms_m  0010: __init__                          <- EXIT
+2019-12-26 23:17:32.697200  level_10_schedulers_  0010: __init__                          <- EXIT
+2019-12-26 23:17:32.697234  level_11_optimizers_  0010: __init__                          <- EXIT
+2019-12-26 23:17:32.697268  level_12_losses_main  0010: __init__                          <- EXIT
+2019-12-26 23:17:32.697302  level_13_updates_mai  0010: __init__                          <- EXIT
+2019-12-26 23:17:32.697336  level_14_master_main  0011: __init__                          <- EXIT
+2019-12-26 23:17:32.697387  base_class.py         0137: custom_print                      -> ENTRY: msg = Pytorch Version: 1.2.0
+2019-12-26 23:17:32.697517  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:17:32.697807  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:17:32.697926  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:17:32.698074  pytorch_prototype.py  0011: __init__                          <- EXIT
+2019-12-26 23:17:32.698280  pytorch_prototype.py  0022: Prototype                         -> ENTRY: project_name = exp-1, experiment_name = proj-1, eval_infer = False, resume_train = False, copy_from = False, pseudo_copy_from = False, summary = False
+2019-12-26 23:17:32.698398  base_class.py         0037: set_system_project                -> ENTRY: project_name = exp-1
+2019-12-26 23:17:32.698472  common.py             0083: create_dir                        -> ENTRY: dir_path = /home/abhi/Desktop/Work/tess_tool/gui/v0.3/finetune_models/Resources/v0.1/workspace/exp-1/
+2019-12-26 23:17:32.698542  common.py             0083: create_dir                        <- EXIT
+2019-12-26 23:17:32.698595  base_class.py         0049: set_system_select_project         -> ENTRY: project_name = exp-1
+2019-12-26 23:17:32.698662  base_class.py         0049: set_system_select_project         <- EXIT
+2019-12-26 23:17:32.698705  base_class.py         0037: set_system_project                <- EXIT
+2019-12-26 23:17:32.698771  base_class.py         0067: set_system_experiment             -> ENTRY: experiment_name = proj-1, eval_infer = False, copy_from = False, pseudo_copy_from = False, resume_train = False, summary = False
+2019-12-26 23:17:32.698867  common.py             0083: create_dir                        -> ENTRY: dir_path = /home/abhi/Desktop/Work/tess_tool/gui/v0.3/finetune_models/Resources/v0.1/workspace/exp-1/proj-1/
+2019-12-26 23:17:32.698933  common.py             0083: create_dir                        <- EXIT
+2019-12-26 23:17:32.698983  base_class.py         0097: set_system_select_experiment      -> ENTRY: experiment_name = proj-1
+2019-12-26 23:17:32.699032  base_class.py         0097: set_system_select_experiment      <- EXIT
+2019-12-26 23:17:32.699078  base_class.py         0114: set_system_delete_create_dir      -> ENTRY
+2019-12-26 23:17:32.699119  common.py             0089: delete_dir                        -> ENTRY: dir_path = workspace/exp-1/proj-1/output/
+2019-12-26 23:17:32.715816  common.py             0089: delete_dir                        <- EXIT
+2019-12-26 23:17:32.715915  common.py             0083: create_dir                        -> ENTRY: dir_path = workspace/exp-1/proj-1/output/
+2019-12-26 23:17:32.716025  common.py             0083: create_dir                        <- EXIT
+2019-12-26 23:17:32.716081  common.py             0083: create_dir                        -> ENTRY: dir_path = workspace/exp-1/proj-1/output/models/
+2019-12-26 23:17:32.716165  common.py             0083: create_dir                        <- EXIT
+2019-12-26 23:17:32.716215  common.py             0083: create_dir                        -> ENTRY: dir_path = workspace/exp-1/proj-1/output/logs/
+2019-12-26 23:17:32.716292  common.py             0083: create_dir                        <- EXIT
+2019-12-26 23:17:32.716334  base_class.py         0114: set_system_delete_create_dir      <- EXIT
+2019-12-26 23:17:32.716379  common.py             0061: save                              -> ENTRY: ---
+2019-12-26 23:17:32.716425  base_system_state.py  0171: update_local_var                  -> ENTRY: ---
+2019-12-26 23:17:32.716478  base_system_state.py  0171: update_local_var                  <- EXIT : ---
+2019-12-26 23:17:32.716525  common.py             0017: write_json                        -> ENTRY: ---
+2019-12-26 23:17:32.716910  common.py             0017: write_json                        <- EXIT
+2019-12-26 23:17:32.716971  common.py             0061: save                              <- EXIT
+2019-12-26 23:17:32.717014  base_class.py         0067: set_system_experiment             <- EXIT
+2019-12-26 23:17:32.717065  base_class.py         0137: custom_print                      -> ENTRY: msg = Experiment Details
+2019-12-26 23:17:32.717170  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:17:32.717229  base_class.py         0137: custom_print                      -> ENTRY: msg =     Project: exp-1
+2019-12-26 23:17:32.717299  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:17:32.717353  base_class.py         0137: custom_print                      -> ENTRY: msg =     Experiment: proj-1
+2019-12-26 23:17:32.717421  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:17:32.717474  base_class.py         0137: custom_print                      -> ENTRY: msg =     Dir: /home/abhi/Desktop/Work/tess_tool/gui/v0.3/finetune_models/Resources/v0.1/workspace/exp-1/proj-1/
+2019-12-26 23:17:32.717553  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:17:32.717725  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:17:32.718031  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:17:32.718159  pytorch_prototype.py  0022: Prototype                         <- EXIT
+2019-12-26 23:18:12.741579  level_6_params_main.  0022: Dataset_Params                    -> ENTRY: dataset_path = ['cat_dog/train', 'cat_dog/val'], path_to_csv = False, delimiter = ,, split = 0.9, input_size = 224, batch_size = 4, shuffle_data = True, num_processors = 3
+2019-12-26 23:18:12.742043  params.py             0006: set_input_size                    -> ENTRY: ---
+2019-12-26 23:18:12.742190  params.py             0006: set_input_size                    <- EXIT : ---
+2019-12-26 23:18:12.742321  params.py             0012: set_batch_size                    -> ENTRY: ---
+2019-12-26 23:18:12.742432  params.py             0012: set_batch_size                    <- EXIT : ---
+2019-12-26 23:18:12.742513  params.py             0018: set_data_shuffle                  -> ENTRY: ---
+2019-12-26 23:18:12.742576  params.py             0018: set_data_shuffle                  <- EXIT : ---
+2019-12-26 23:18:12.742787  params.py             0027: set_num_processors                -> ENTRY: ---
+2019-12-26 23:18:12.742855  params.py             0027: set_num_processors                <- EXIT : ---
+2019-12-26 23:18:12.742929  paths.py              0007: set_dataset_train_path            -> ENTRY: ---
+2019-12-26 23:18:12.742994  paths.py              0007: set_dataset_train_path            <- EXIT : ---
+2019-12-26 23:18:12.743079  base_class.py         0137: custom_print                      -> ENTRY: msg = Dataset Details
+2019-12-26 23:18:12.743296  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:12.743762  base_class.py         0137: custom_print                      -> ENTRY: msg =     Train path:     cat_dog/train
+2019-12-26 23:18:12.744155  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:12.744277  base_class.py         0137: custom_print                      -> ENTRY: msg =     Val path:       cat_dog/val
+2019-12-26 23:18:12.744545  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:12.744659  base_class.py         0137: custom_print                      -> ENTRY: msg =     CSV train path: None
+2019-12-26 23:18:12.744781  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:12.745139  base_class.py         0137: custom_print                      -> ENTRY: msg =     CSV val path:  None
+2019-12-26 23:18:12.745245  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:12.745436  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:12.745531  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:12.745715  base_class.py         0137: custom_print                      -> ENTRY: msg = Dataset Params
+2019-12-26 23:18:12.745811  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:12.745992  base_class.py         0137: custom_print                      -> ENTRY: msg =     Input Size:  224
+2019-12-26 23:18:12.746098  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:12.746279  base_class.py         0137: custom_print                      -> ENTRY: msg =     Batch Size:  4
+2019-12-26 23:18:12.746377  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:12.746556  base_class.py         0137: custom_print                      -> ENTRY: msg =     Data Shuffle: True
+2019-12-26 23:18:12.746655  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:12.746833  base_class.py         0137: custom_print                      -> ENTRY: msg =     Processors:   3
+2019-12-26 23:18:12.746927  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:12.747104  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:12.747194  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:12.747246  level_6_params_main.  0022: Dataset_Params                    <- EXIT
+2019-12-26 23:18:12.747954  level_9_transforms_m  0068: apply_random_horizontal_flip      -> ENTRY: ---
+2019-12-26 23:18:12.748063  transforms.py         0111: transform_random_horizontal_flip  -> ENTRY: ---
+2019-12-26 23:18:12.748147  transforms.py         0111: transform_random_horizontal_flip  <- EXIT : ---
+2019-12-26 23:18:12.748206  level_9_transforms_m  0068: apply_random_horizontal_flip      <- EXIT
+2019-12-26 23:18:12.748398  level_9_transforms_m  0145: apply_normalize                   -> ENTRY: ---
+2019-12-26 23:18:12.748515  transforms.py         0282: transform_normalize               -> ENTRY: ---
+2019-12-26 23:18:12.748620  transforms.py         0282: transform_normalize               <- EXIT : ---
+2019-12-26 23:18:12.748679  level_9_transforms_m  0145: apply_normalize                   <- EXIT
+2019-12-26 23:18:12.748806  level_14_master_main  0017: Dataset                           -> ENTRY
+2019-12-26 23:18:12.748883  level_1_dataset_base  0104: set_dataset_final                 -> ENTRY: test = False
+2019-12-26 23:18:12.748948  return_transform.py   0006: set_transform_trainval            -> ENTRY: ---
+2019-12-26 23:18:12.749005  return_transform.py   0006: set_transform_trainval            <- EXIT : ---
+2019-12-26 23:18:12.749069  level_1_dataset_base  0017: set_dataset_dataloader            -> ENTRY: test = False
+2019-12-26 23:18:12.750497  level_1_dataset_base  0017: set_dataset_dataloader            <- EXIT
+2019-12-26 23:18:12.750583  level_1_dataset_base  0104: set_dataset_final                 <- EXIT
+2019-12-26 23:18:12.750645  common.py             0061: save                              -> ENTRY: ---
+2019-12-26 23:18:12.750701  base_system_state.py  0171: update_local_var                  -> ENTRY: ---
+2019-12-26 23:18:12.750752  base_system_state.py  0171: update_local_var                  <- EXIT : ---
+2019-12-26 23:18:12.750802  common.py             0017: write_json                        -> ENTRY: ---
+2019-12-26 23:18:12.751520  common.py             0017: write_json                        <- EXIT
+2019-12-26 23:18:12.751593  common.py             0061: save                              <- EXIT
+2019-12-26 23:18:12.751660  base_class.py         0137: custom_print                      -> ENTRY: msg = Pre-Composed Train Transforms
+2019-12-26 23:18:12.751782  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:12.752020  base_class.py         0137: custom_print                      -> ENTRY: msg = [{'RandomHorizontalFlip': {'p': 0.5}}, {'Normalize': {'mean': [0.485, 0.456, 0.406], 'std': [0.229, 0.224, 0.225]}}]
+2019-12-26 23:18:12.752144  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:12.752307  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:12.752386  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:12.752582  base_class.py         0137: custom_print                      -> ENTRY: msg = Pre-Composed Val Transforms
+2019-12-26 23:18:12.752672  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:12.752831  base_class.py         0137: custom_print                      -> ENTRY: msg = [{'Normalize': {'mean': [0.485, 0.456, 0.406], 'std': [0.229, 0.224, 0.225]}}]
+2019-12-26 23:18:12.752948  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:12.753102  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:12.753180  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:12.753330  base_class.py         0137: custom_print                      -> ENTRY: msg = Dataset Numbers
+2019-12-26 23:18:12.753411  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:12.753561  base_class.py         0137: custom_print                      -> ENTRY: msg =     Num train images: 200
+2019-12-26 23:18:12.753643  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:12.753790  base_class.py         0137: custom_print                      -> ENTRY: msg =     Num val images:   50
+2019-12-26 23:18:12.753872  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:12.754020  base_class.py         0137: custom_print                      -> ENTRY: msg =     Num classes:      2
+2019-12-26 23:18:12.754104  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:12.754191  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:12.754337  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:12.754469  level_14_master_main  0017: Dataset                           <- EXIT
+2019-12-26 23:18:16.576830  level_6_params_main.  0074: Model_Params                      -> ENTRY: model_name = resnet18, freeze_base_network = True, use_gpu = True, use_pretrained = True, model_path = False
+2019-12-26 23:18:16.579018  params.py             0006: set_model_name                    -> ENTRY: ---
+2019-12-26 23:18:16.579535  params.py             0006: set_model_name                    <- EXIT : ---
+2019-12-26 23:18:16.579895  params.py             0030: set_pretrained                    -> ENTRY: ---
+2019-12-26 23:18:16.580154  params.py             0030: set_pretrained                    <- EXIT : ---
+2019-12-26 23:18:16.580510  params.py             0017: set_device                        -> ENTRY: ---
+2019-12-26 23:18:16.609740  params.py             0017: set_device                        <- EXIT : ---
+2019-12-26 23:18:16.609988  params.py             0037: set_freeze_base_network           -> ENTRY: ---
+2019-12-26 23:18:16.610049  params.py             0037: set_freeze_base_network           <- EXIT : ---
+2019-12-26 23:18:16.610129  base_class.py         0137: custom_print                      -> ENTRY: msg = Model Params
+2019-12-26 23:18:16.610348  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:16.610417  base_class.py         0137: custom_print                      -> ENTRY: msg =     Model name:           resnet18
+2019-12-26 23:18:16.610964  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:16.611198  base_class.py         0137: custom_print                      -> ENTRY: msg =     Use Gpu:              True
+2019-12-26 23:18:16.611324  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:16.611524  base_class.py         0137: custom_print                      -> ENTRY: msg =     Use pretrained:       True
+2019-12-26 23:18:16.611652  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:16.611811  base_class.py         0137: custom_print                      -> ENTRY: msg =     Freeze base network:  True
+2019-12-26 23:18:16.611906  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:16.612054  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:16.612130  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:16.612270  level_6_params_main.  0074: Model_Params                      <- EXIT
+2019-12-26 23:18:16.612607  level_14_master_main  0138: Model                             -> ENTRY
+2019-12-26 23:18:16.612686  level_2_model_base.p  0016: set_model_final                   -> ENTRY: path = False
+2019-12-26 23:18:16.612751  base_class.py         0137: custom_print                      -> ENTRY: msg = Model Details
+2019-12-26 23:18:16.612838  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:16.613001  base_class.py         0137: custom_print                      -> ENTRY: msg =     Loading pretrained model
+2019-12-26 23:18:16.613081  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:16.613224  return_model.py       0043: setup_model                       -> ENTRY: ---
+2019-12-26 23:18:16.613297  models.py             0024: get_base_model                    -> ENTRY: model_name = resnet18, use_pretrained = True, num_classes = 2, freeze_base_network = True
+2019-12-26 23:18:16.911508  common.py             0007: set_parameter_requires_grad       -> ENTRY: ---
+2019-12-26 23:18:16.911983  common.py             0007: set_parameter_requires_grad       <- EXIT : ---
+2019-12-26 23:18:16.912091  models.py             0024: get_base_model                    <- EXIT : ---
+2019-12-26 23:18:16.912434  return_model.py       0043: setup_model                       <- EXIT : ---
+2019-12-26 23:18:16.912551  common.py             0050: model_to_device                   -> ENTRY: ---
+2019-12-26 23:18:21.298304  common.py             0050: model_to_device                   <- EXIT : ---
+2019-12-26 23:18:21.298456  base_class.py         0137: custom_print                      -> ENTRY: msg =     Model Loaded on device
+2019-12-26 23:18:21.298599  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:21.298816  common.py             0081: get_num_layers                    -> ENTRY: ---
+2019-12-26 23:18:21.299139  common.py             0081: get_num_layers                    <- EXIT : ---
+2019-12-26 23:18:21.299379  base_class.py         0137: custom_print                      -> ENTRY: msg =         Model name:           resnet18
+2019-12-26 23:18:21.299480  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:21.299641  base_class.py         0137: custom_print                      -> ENTRY: msg =         Num layers in model:  31
+2019-12-26 23:18:21.299730  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:21.299868  base_class.py         0137: custom_print                      -> ENTRY: msg =         Num trainable layers: 1
+2019-12-26 23:18:21.299949  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:21.300081  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:21.300153  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:21.300273  level_2_model_base.p  0016: set_model_final                   <- EXIT
+2019-12-26 23:18:21.300329  common.py             0061: save                              -> ENTRY: ---
+2019-12-26 23:18:21.300391  base_system_state.py  0171: update_local_var                  -> ENTRY: ---
+2019-12-26 23:18:21.300440  base_system_state.py  0171: update_local_var                  <- EXIT : ---
+2019-12-26 23:18:21.300501  common.py             0017: write_json                        -> ENTRY: ---
+2019-12-26 23:18:21.301030  common.py             0017: write_json                        <- EXIT
+2019-12-26 23:18:21.301094  common.py             0061: save                              <- EXIT
+2019-12-26 23:18:21.301165  level_14_master_main  0138: Model                             <- EXIT
+2019-12-26 23:18:28.026301  level_11_optimizers_  0206: optimizer_sgd                     -> ENTRY: learning_rate = 0.001, momentum = 0, dampening = 0, weight_decay = 0, nesterov = False
+2019-12-26 23:18:28.026476  optimizers.py         0143: sgd                               -> ENTRY: ---
+2019-12-26 23:18:28.026543  optimizers.py         0143: sgd                               <- EXIT : ---
+2019-12-26 23:18:28.026603  base_class.py         0137: custom_print                      -> ENTRY: msg = Optimizer
+2019-12-26 23:18:28.026694  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:28.026753  base_class.py         0137: custom_print                      -> ENTRY: msg =     Name:          sgd
+2019-12-26 23:18:28.026821  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:28.026874  base_class.py         0137: custom_print                      -> ENTRY: msg =     Learning rate: 0.001
+2019-12-26 23:18:28.026942  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:28.027000  base_class.py         0137: custom_print                      -> ENTRY: msg =     Params:        {'lr': 0.001, 'dampening': 0, 'nesterov': False, 'weight_decay': 0, 'momentum': 0}
+2019-12-26 23:18:28.027088  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:28.027147  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:28.027207  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:28.027245  level_11_optimizers_  0206: optimizer_sgd                     <- EXIT
+2019-12-26 23:18:28.027364  level_10_schedulers_  0016: lr_fixed                          -> ENTRY
+2019-12-26 23:18:28.027416  schedulers.py         0006: scheduler_fixed                   -> ENTRY: ---
+2019-12-26 23:18:28.027458  schedulers.py         0006: scheduler_fixed                   <- EXIT : ---
+2019-12-26 23:18:28.027507  base_class.py         0137: custom_print                      -> ENTRY: msg = Learning rate scheduler
+2019-12-26 23:18:28.027578  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:28.027630  base_class.py         0137: custom_print                      -> ENTRY: msg =     Name:   fixed
+2019-12-26 23:18:28.027692  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:28.027742  base_class.py         0137: custom_print                      -> ENTRY: msg =     Params: {}
+2019-12-26 23:18:28.030291  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:28.030432  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:28.030552  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:28.030643  level_10_schedulers_  0016: lr_fixed                          <- EXIT
+2019-12-26 23:18:28.030814  level_12_losses_main  0018: loss_softmax_crossentropy         -> ENTRY: weight = None, size_average = None, ignore_index = -100, reduction = mean
+2019-12-26 23:18:28.033511  losses.py             0008: softmax_crossentropy              -> ENTRY: ---
+2019-12-26 23:18:28.033618  losses.py             0008: softmax_crossentropy              <- EXIT : ---
+2019-12-26 23:18:28.033689  base_class.py         0137: custom_print                      -> ENTRY: msg = Loss
+2019-12-26 23:18:28.033795  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:28.033855  base_class.py         0137: custom_print                      -> ENTRY: msg =     Name:          softmaxcrossentropy
+2019-12-26 23:18:28.033927  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:28.033986  base_class.py         0137: custom_print                      -> ENTRY: msg =     Params:        {'weight': None, 'size_average': None, 'ignore_index': -100, 'reduce': None, 'reduction': 'mean'}
+2019-12-26 23:18:28.034328  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:28.034486  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:28.034566  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:28.034708  level_12_losses_main  0018: loss_softmax_crossentropy         <- EXIT
+2019-12-26 23:18:31.393096  level_6_params_main.  0109: Training_Params                   -> ENTRY: num_epochs = 4, display_progress = True, display_progress_realtime = True, save_intermediate_models = True, intermediate_model_prefix = intermediate_model_, save_training_logs = True
+2019-12-26 23:18:31.393280  params.py             0006: set_num_epochs                    -> ENTRY: ---
+2019-12-26 23:18:31.393405  params.py             0006: set_num_epochs                    <- EXIT : ---
+2019-12-26 23:18:31.393476  params.py             0014: set_display_progress_realtime     -> ENTRY: ---
+2019-12-26 23:18:31.393525  params.py             0014: set_display_progress_realtime     <- EXIT : ---
+2019-12-26 23:18:31.393574  params.py             0021: set_display_progress              -> ENTRY: ---
+2019-12-26 23:18:31.393615  params.py             0021: set_display_progress              <- EXIT : ---
+2019-12-26 23:18:31.393661  params.py             0028: set_save_intermediate_models      -> ENTRY: ---
+2019-12-26 23:18:31.393700  params.py             0028: set_save_intermediate_models      <- EXIT : ---
+2019-12-26 23:18:31.393785  params.py             0035: set_save_training_logs            -> ENTRY: ---
+2019-12-26 23:18:31.393830  params.py             0035: set_save_training_logs            <- EXIT : ---
+2019-12-26 23:18:31.393899  params.py             0042: set_intermediate_model_prefix     -> ENTRY: ---
+2019-12-26 23:18:31.393950  params.py             0042: set_intermediate_model_prefix     <- EXIT : ---
+2019-12-26 23:18:31.394007  base_class.py         0137: custom_print                      -> ENTRY: msg = Training params
+2019-12-26 23:18:31.394102  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:31.394638  base_class.py         0137: custom_print                      -> ENTRY: msg =     Num Epochs: 4
+2019-12-26 23:18:31.394761  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:31.394823  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:31.394888  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:31.394937  base_class.py         0137: custom_print                      -> ENTRY: msg = Display params
+2019-12-26 23:18:31.395282  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:31.395355  base_class.py         0137: custom_print                      -> ENTRY: msg =     Display progress:          True
+2019-12-26 23:18:31.395443  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:31.395497  base_class.py         0137: custom_print                      -> ENTRY: msg =     Display progress realtime: True
+2019-12-26 23:18:31.395698  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:31.395860  base_class.py         0137: custom_print                      -> ENTRY: msg =     Save Training logs:        True
+2019-12-26 23:18:31.395953  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:31.396098  base_class.py         0137: custom_print                      -> ENTRY: msg =     Save Intermediate models:  True
+2019-12-26 23:18:31.396189  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:31.396333  base_class.py         0137: custom_print                      -> ENTRY: msg =     Intermediate model prefix: intermediate_model_
+2019-12-26 23:18:31.396425  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:31.396612  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:31.396731  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:31.396894  level_6_params_main.  0109: Training_Params                   <- EXIT
+2019-12-26 23:18:31.397047  level_14_master_main  0151: Train                             -> ENTRY
+2019-12-26 23:18:31.397114  level_3_training_bas  0087: set_training_final                -> ENTRY
+2019-12-26 23:18:31.397168  base_class.py         0137: custom_print                      -> ENTRY: msg = Training Start
+2019-12-26 23:18:31.397258  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:31.397351  return_optimizer.py   0005: load_optimizer                    -> ENTRY: ---
+2019-12-26 23:18:31.397502  return_optimizer.py   0005: load_optimizer                    <- EXIT : ---
+2019-12-26 23:18:31.397706  return_scheduler.py   0006: load_scheduler                    -> ENTRY: ---
+2019-12-26 23:18:31.397765  return_scheduler.py   0006: load_scheduler                    <- EXIT : ---
+2019-12-26 23:18:31.397815  return_loss.py        0006: load_loss                         -> ENTRY: ---
+2019-12-26 23:18:31.397934  return_loss.py        0006: load_loss                         <- EXIT : ---
+2019-12-26 23:18:31.405829  base_class.py         0137: custom_print                      -> ENTRY: msg =     Epoch 1/4
+2019-12-26 23:18:31.406017  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:31.406267  base_class.py         0137: custom_print                      -> ENTRY: msg =     ----------
+2019-12-26 23:18:31.406360  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:32.678422  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:32.678740  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:32.678815  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:32.678887  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:32.678952  base_class.py         0137: custom_print                      -> ENTRY: msg =     curr_lr - 0.001
+2019-12-26 23:18:32.679024  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:32.679665  base_class.py         0137: custom_print                      -> ENTRY: msg =     [Epoch 1] Train-acc: 0.570, Train-loss: 0.702 | Val-acc: 0.820000, Val-loss: 0.532, | time: 1.3 sec
+2019-12-26 23:18:32.679830  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:32.679994  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:32.680074  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:32.680222  common.py             0061: save                              -> ENTRY: ---
+2019-12-26 23:18:32.680291  base_system_state.py  0171: update_local_var                  -> ENTRY: ---
+2019-12-26 23:18:32.680342  base_system_state.py  0171: update_local_var                  <- EXIT : ---
+2019-12-26 23:18:32.680392  common.py             0017: write_json                        -> ENTRY: ---
+2019-12-26 23:18:32.680990  common.py             0017: write_json                        <- EXIT
+2019-12-26 23:18:32.681056  common.py             0061: save                              <- EXIT
+2019-12-26 23:18:32.681120  base_class.py         0137: custom_print                      -> ENTRY: msg =     Epoch 2/4
+2019-12-26 23:18:32.681212  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:32.681267  base_class.py         0137: custom_print                      -> ENTRY: msg =     ----------
+2019-12-26 23:18:32.681333  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:34.117012  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:34.117905  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:34.118132  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:34.118370  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:34.118576  base_class.py         0137: custom_print                      -> ENTRY: msg =     curr_lr - 0.001
+2019-12-26 23:18:34.118827  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:34.120754  base_class.py         0137: custom_print                      -> ENTRY: msg =     [Epoch 2] Train-acc: 0.825, Train-loss: 0.471 | Val-acc: 0.880000, Val-loss: 0.396, | time: 1.4 sec
+2019-12-26 23:18:34.121238  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:34.121459  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:34.121697  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:34.121887  common.py             0061: save                              -> ENTRY: ---
+2019-12-26 23:18:34.122094  base_system_state.py  0171: update_local_var                  -> ENTRY: ---
+2019-12-26 23:18:34.122256  base_system_state.py  0171: update_local_var                  <- EXIT : ---
+2019-12-26 23:18:34.122421  common.py             0017: write_json                        -> ENTRY: ---
+2019-12-26 23:18:34.124764  common.py             0017: write_json                        <- EXIT
+2019-12-26 23:18:34.124980  common.py             0061: save                              <- EXIT
+2019-12-26 23:18:34.125183  base_class.py         0137: custom_print                      -> ENTRY: msg =     Epoch 3/4
+2019-12-26 23:18:34.125457  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:34.125638  base_class.py         0137: custom_print                      -> ENTRY: msg =     ----------
+2019-12-26 23:18:34.126156  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:35.397830  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:35.399961  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:35.400250  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:35.400584  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:35.400814  base_class.py         0137: custom_print                      -> ENTRY: msg =     curr_lr - 0.001
+2019-12-26 23:18:35.401468  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:35.402395  base_class.py         0137: custom_print                      -> ENTRY: msg =     [Epoch 3] Train-acc: 0.830, Train-loss: 0.425 | Val-acc: 0.880000, Val-loss: 0.329, | time: 1.3 sec
+2019-12-26 23:18:35.402899  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:35.403125  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:35.403344  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:35.403534  common.py             0061: save                              -> ENTRY: ---
+2019-12-26 23:18:35.404395  base_system_state.py  0171: update_local_var                  -> ENTRY: ---
+2019-12-26 23:18:35.404719  base_system_state.py  0171: update_local_var                  <- EXIT : ---
+2019-12-26 23:18:35.404928  common.py             0017: write_json                        -> ENTRY: ---
+2019-12-26 23:18:35.406831  common.py             0017: write_json                        <- EXIT
+2019-12-26 23:18:35.407034  common.py             0061: save                              <- EXIT
+2019-12-26 23:18:35.407239  base_class.py         0137: custom_print                      -> ENTRY: msg =     Epoch 4/4
+2019-12-26 23:18:35.407522  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:35.407702  base_class.py         0137: custom_print                      -> ENTRY: msg =     ----------
+2019-12-26 23:18:35.408550  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:36.933706  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:36.934125  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:36.934235  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:36.934328  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:36.934399  base_class.py         0137: custom_print                      -> ENTRY: msg =     curr_lr - 0.001
+2019-12-26 23:18:36.934472  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:36.935112  base_class.py         0137: custom_print                      -> ENTRY: msg =     [Epoch 4] Train-acc: 0.850, Train-loss: 0.386 | Val-acc: 0.960000, Val-loss: 0.265, | time: 1.5 sec
+2019-12-26 23:18:36.935271  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:36.935341  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:36.935570  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:36.935747  common.py             0061: save                              -> ENTRY: ---
+2019-12-26 23:18:36.935827  base_system_state.py  0171: update_local_var                  -> ENTRY: ---
+2019-12-26 23:18:36.935891  base_system_state.py  0171: update_local_var                  <- EXIT : ---
+2019-12-26 23:18:36.935947  common.py             0017: write_json                        -> ENTRY: ---
+2019-12-26 23:18:36.936543  common.py             0017: write_json                        <- EXIT
+2019-12-26 23:18:36.936609  common.py             0061: save                              <- EXIT
+2019-12-26 23:18:36.936677  base_class.py         0137: custom_print                      -> ENTRY: msg =     Training completed in: 0m 4s
+2019-12-26 23:18:36.936777  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:36.936972  base_class.py         0137: custom_print                      -> ENTRY: msg =     Best val Acc:          0.960000
+2019-12-26 23:18:36.937068  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:36.937207  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:36.937282  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:36.937426  base_class.py         0137: custom_print                      -> ENTRY: msg = Training End
+2019-12-26 23:18:36.937494  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:36.937697  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:36.937769  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:36.989846  base_class.py         0137: custom_print                      -> ENTRY: msg = Training Outputs
+2019-12-26 23:18:36.990030  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:36.990104  base_class.py         0137: custom_print                      -> ENTRY: msg =     Model Dir:   /home/abhi/Desktop/Work/tess_tool/gui/v0.3/finetune_models/Resources/v0.1/workspace/exp-1/proj-1/output/models/
+2019-12-26 23:18:36.990202  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:36.990259  base_class.py         0137: custom_print                      -> ENTRY: msg =     Log Dir:     /home/abhi/Desktop/Work/tess_tool/gui/v0.3/finetune_models/Resources/v0.1/workspace/exp-1/proj-1/output/logs/
+2019-12-26 23:18:36.990344  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:36.990397  base_class.py         0137: custom_print                      -> ENTRY: msg =     Final model: final
+2019-12-26 23:18:36.990466  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:36.990655  base_class.py         0137: custom_print                      -> ENTRY: msg =     Best model:  best_model
+2019-12-26 23:18:36.991014  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:36.991155  base_class.py         0137: custom_print                      -> ENTRY: msg =     Log 1 - Validation accuracy history log: val_acc_history.npy
+2019-12-26 23:18:36.991248  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:36.991381  base_class.py         0137: custom_print                      -> ENTRY: msg =     Log 2 - Validation loss history log:     val_loss_history.npy
+2019-12-26 23:18:36.991471  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:36.991603  base_class.py         0137: custom_print                      -> ENTRY: msg =     Log 3 - Training accuracy history log:   train_acc_history.npy
+2019-12-26 23:18:36.991691  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:36.991746  base_class.py         0137: custom_print                      -> ENTRY: msg =     Log 4 - Training loss history log:       train_loss_history.npy
+2019-12-26 23:18:36.991822  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:36.991874  base_class.py         0137: custom_print                      -> ENTRY: msg =     Log 5 - Training curve:                  train_loss_history.npy
+2019-12-26 23:18:36.991955  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:36.992006  base_class.py         0137: custom_print                      -> ENTRY: msg =     Log 6 - Validation curve:                train_loss_history.npy
+2019-12-26 23:18:36.992080  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:36.992131  base_class.py         0137: custom_print                      -> ENTRY: msg =
+2019-12-26 23:18:36.992295  base_class.py         0137: custom_print                      <- EXIT
+2019-12-26 23:18:37.256762  line.py               0007: create_train_test_plots_accuracy  -> ENTRY: plots = [[tensor(0.5700, device='cuda:0', dtype=torch.float64), tensor(0.8250, device='cuda:0', dtype=torch.float64), tensor(0.8300, device='cuda:0', dtype=torch.float64), tensor(0.8500, device='cuda:0', dtype=torch.float64)], [tensor(0.8200, device='cuda:0', dtype=torch.float64), tensor(0.8800, device='cuda:0', dtype=torch.float64), tensor(0.8800, device='cuda:0', dtype=torch.float64), tensor(0.9600, device='cuda:0', dtype=torch.float64)]], labels = ['Epoch Num', 'Accuracy'], log_dir = /home/abhi/Desktop/Work/tess_tool/gui/v0.3/finetune_models/Resources/v0.1/workspace/exp-1/proj-1/output/logs/, show_img = False, save_img = True
+2019-12-26 23:18:37.843191  line.py               0007: create_train_test_plots_accuracy  <- EXIT
+2019-12-26 23:18:37.843366  line.py               0020: create_train_test_plots_loss      -> ENTRY: plots = [[0.7015185165405273, 0.471226949095726, 0.425327128469944, 0.3862212598323822], [0.532270929813385, 0.3959760844707489, 0.32916648328304293, 0.26463053584098817]], labels = ['Epoch Num', 'Loss'], log_dir = /home/abhi/Desktop/Work/tess_tool/gui/v0.3/finetune_models/Resources/v0.1/workspace/exp-1/proj-1/output/logs/, show_img = False, save_img = True
+2019-12-26 23:18:37.963512  line.py               0020: create_train_test_plots_loss      <- EXIT
+2019-12-26 23:18:37.965604  level_3_training_bas  0087: set_training_final                <- EXIT
+2019-12-26 23:18:37.965700  common.py             0061: save                              -> ENTRY: ---
+2019-12-26 23:18:37.965765  base_system_state.py  0171: update_local_var                  -> ENTRY: ---
+2019-12-26 23:18:37.965817  base_system_state.py  0171: update_local_var                  <- EXIT : ---
+2019-12-26 23:18:37.966008  common.py             0017: write_json                        -> ENTRY: ---
+2019-12-26 23:18:37.966643  common.py             0017: write_json                        <- EXIT
+2019-12-26 23:18:37.966756  common.py             0061: save                              <- EXIT
+2019-12-26 23:18:37.966814  level_14_master_main  0151: Train                             <- EXIT

@@ -1,0 +1,14 @@
+numpy
+scipy
+scikit-learn
+scikit-image
+pillow
+opencv-python
+torch
+torchvision
+matplotlib
+tqdm
+jupyter
+notebook
+pandas
+torchsummary
