@@ -47,9 +47,9 @@ pip install -r requirements.txt
 
 
 ## Author
-    Tessellate Imaging - https://www.tessellateimaging.com/
+Tessellate Imaging - https://www.tessellateimaging.com/
    
-    Check out Monk AI - (https://github.com/Tessellate-Imaging/monk_v1)
+Check out Monk AI - (https://github.com/Tessellate-Imaging/monk_v1)
     
     Monk features
         - low-code
@@ -61,9 +61,9 @@ pip install -r requirements.txt
         - to compare experiments across training metrics
         - to quickly find best hyper-parameters
 
-    To contribute to Monk AI or Pytorch_Tutoral repository raise an issue in the git-repo or dm us on linkedin 
-       - Abhishek - https://www.linkedin.com/in/abhishek-kumar-annamraju/
-       - Akash - https://www.linkedin.com/in/akashdeepsingh01/
+To contribute to Monk AI or Pytorch_Tutoral repository raise an issue in the git-repo or dm us on linkedin 
+   - Abhishek - https://www.linkedin.com/in/abhishek-kumar-annamraju/
+   - Akash - https://www.linkedin.com/in/akashdeepsingh01/
 <br />
 <br />
 <br />
