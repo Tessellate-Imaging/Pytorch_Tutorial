@@ -1,4 +1,4 @@
-# Pytorch_Tutorial[![Tweet](https://img.shields.io/twitter/url/https/github.com/tterb/hyde.svg?style=social)](http://twitter.com/share?text=Check%20out%20Pytorch_Tutorial,%20A%20set%20of%20jupyter%20notebooks%20on%20pytorch%20functions%20with%20examples&url=https://github.com/Tessellate-Imaging/monk_v1&hashtags=MonkAI,OpenSource,Notebooks,DeepLearning,Tutorial,Pytorch,Python)
+# Pytorch_Tutorial[![Tweet](https://img.shields.io/twitter/url/https/github.com/tterb/hyde.svg?style=social)](http://twitter.com/share?text=Check%20out%20Pytorch_Tutorial,%20A%20set%20of%20jupyter%20notebooks%20on%20pytorch%20functions%20with%20examples&url=https://github.com/Tessellate-Imaging/Pytorch_Tutorial&hashtags=MonkAI,OpenSource,Notebooks,DeepLearning,Tutorial,Pytorch,Python)
 A set of jupyter notebooks on pytorch functions with examples
 <br />
 <br />
