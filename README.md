@@ -4,14 +4,10 @@ A set of jupyter notebooks on pytorch functions with examples
 <br />
 <br />
 
-## Demo
+## Contents
 ![Alt Text](demo.gif)
 <br />
-<br />
-<br />
 
-
-## Table of Contents
 - A) RoadMap 1 - Torch Main 1 - Basic Tensor functions.ipynb
 - B) RoadMap 2 - Torch Main2 - Mathematical Operators.ipynb
 - C) RoadMap 3 - Torch Main 3 - Linear Algebraic Operations.ipynb
