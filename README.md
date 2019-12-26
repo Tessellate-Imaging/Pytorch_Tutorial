@@ -4,6 +4,12 @@ A set of jupyter notebooks on pytorch functions with examples
 <br />
 <br />
 
+## Demo
+![Alt Text](demo.gif)
+<br />
+<br />
+<br />
+
 
 ## Table of Contents
 - A) RoadMap 1 - Torch Main 1 - Basic Tensor functions.ipynb
