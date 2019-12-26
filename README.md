@@ -48,32 +48,22 @@ pip install -r requirements.txt
 
 ## Author
     Tessellate Imaging - https://www.tessellateimaging.com/
-    Monk Library - https://github.com/Tessellate-Imaging/monk_v1
+   
+    Check out Monk AI - (https://github.com/Tessellate-Imaging/monk_v1)
+    
+    Monk features
+        - low-code
+        - unified wrapper over major deep learning framework - keras, pytorch, gluoncv
+        - syntax invariant wrapper
 
-    Monk is an opensource low-code tool for computer vision and deep learning
+    Enables developers
+        - to create, manage and version control deep learning experiments
+        - to compare experiments across training metrics
+        - to quickly find best hyper-parameters
 
-#### Monk features
-- low-code
-- unified wrapper over major deep learning framework - keras, pytorch, gluoncv
-- syntax invariant wrapper
-
-
-#### Enables
-- to create, manage and version control deep learning experiments
-- to compare experiments across training metrics
-- to quickly find best hyper-parameters
-
-
-#### At present it only supports transfer learning, but we are working each day to incorporate
-- GUI based custom model creation
-- various object detection and segmentation algorithms
-- deployment pipelines to cloud and local platforms
-- acceleration libraries such as TensorRT
-- preprocessing and post processing libraries
-
-#### To contribute to Monk AI or Pytorch RoadMap repository raise an issue in the git-repo or dm us on linkedin 
- - Abhishek - https://www.linkedin.com/in/abhishek-kumar-annamraju/
- - Akash - https://www.linkedin.com/in/akashdeepsingh01/
+    To contribute to Monk AI or Pytorch_Tutoral repository raise an issue in the git-repo or dm us on linkedin 
+       - Abhishek - https://www.linkedin.com/in/abhishek-kumar-annamraju/
+       - Akash - https://www.linkedin.com/in/akashdeepsingh01/
 <br />
 <br />
 <br />
