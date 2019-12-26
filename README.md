@@ -68,6 +68,11 @@ To contribute to Monk AI or Pytorch_Tutoral repository raise an issue in the git
 <br />
 <br />
 
+### Credits to Pytorch Docs: https://pytorch.org/docs/stable/index.html
+<br />
+<br />
+<br />
+
 ## Copyright
 
 Copyright 2019 onwards, Tessellate Imaging Private Limited Licensed under the Apache License, Version 2.0 (the "License"); you may not use this project's files except in compliance with the License. A copy of the License is provided in the LICENSE file in this repository.
