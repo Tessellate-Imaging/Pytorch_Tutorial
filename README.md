@@ -30,7 +30,7 @@ A set of jupyter notebooks on pytorch functions with examples
 - T) RoadMap 20 - Appendix 3 - Indoor Scene Classification with Monk.ipynb
 - U) RoadMap 21 - Appendix 4 - American Sign Language Classification with Monk.ipynb
 - V) RoadMap 23 - Appendix 5 - Plant Disease Classification with Monk.ipynb
-- W) RoadMap 24 - Appendix 6 - Plant Disease Classification with Monk.ipynb
+- W) RoadMap 24 - Appendix 6 - Food Classification with Monk.ipynb
 <br />
 <br />
 <br />
